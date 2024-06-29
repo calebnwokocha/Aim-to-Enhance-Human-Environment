@@ -9,8 +9,10 @@ public class Main {
         double[] machineNextState = new double[machineCurrentStates.length],
                 environmentNextStates = new double[environmentCurrentStates.length];
         double[] machineInput, machineOutput;
+        int evolutionLength = 100;
 
-        while (true) {
+        for (int j = 1; j <= evolutionLength; j++) {
+            System.out.println("Evolution " + j);
             System.out.println("Environment current states: " + Arrays.toString(environmentCurrentStates));
             System.out.println("Machine current states: " + Arrays.toString(machineCurrentStates));
             machineInput = machineInput(machineCurrentStates, environmentCurrentStates);
