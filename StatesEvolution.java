@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class StateEvolution {
+public class StatesEvolution {
     public static void main(String[] args) {
         double[] environmentCurrentStates = {2, 2.7, 4, 6, 3, 32};
         double[] environmentStatesDOF = {2, 2.7, 4, 6, 3, 32}; // DOF <--> Degree of Freedom
