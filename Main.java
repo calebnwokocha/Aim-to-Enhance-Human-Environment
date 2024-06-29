@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         double[] environmentCurrentStates = {2, 2.7, 4, 6, 3, 32};
-        double[] environmentStatesDOF = {2, 2.7, 4, 6, 3, 32}; // Degree of Freedom (DOF)
+        double[] environmentStatesDOF = {2, 2.7, 4, 6, 3, 32}; // DOF <--> Degree of Freedom
         double[] machineCurrentStates = {3, 6};
         double[] machineStatesDOF = {10, 10};
         double[] machineNextState = new double[machineCurrentStates.length],
